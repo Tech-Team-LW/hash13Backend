@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tech-Team-LW/hash13Backend/issues"
   },
-  "homepage": "https://github.com/Tech-Team-LW/hash13Backend#readme"
+  "homepage": "https://github.com/Tech-Team-LW/hash13Backend#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
 }
