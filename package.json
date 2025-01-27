@@ -2,9 +2,12 @@
   "name": "hash13backend",
   "version": "1.0.0",
   "description": "hash13Backend",
+  "type":"module",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "dev":"nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,17 @@
   },
   "homepage": "https://github.com/Tech-Team-LW/hash13Backend#readme",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "eslint": "^9.19.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   }
 }
