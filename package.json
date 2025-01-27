@@ -1,0 +1,19 @@
+{
+  "name": "hash13backend",
+  "version": "1.0.0",
+  "description": "hash13Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tech-Team-LW/hash13Backend.git"
+  },
+  "author": "LWTechTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tech-Team-LW/hash13Backend/issues"
+  },
+  "homepage": "https://github.com/Tech-Team-LW/hash13Backend#readme"
+}
